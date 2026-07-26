@@ -3,9 +3,12 @@ Here I will document each and every day's progress that I did in order to contri
 
 🎯 Project Overview
 Nepali-language hate speech on social media (Facebook, Instagram, YouTube, TikTok) is rarely covered by existing moderation tools, which are built primarily for English. BoliKawach aims to close that gap by scanning visible comments on supported platforms, running them through a trained hate speech classifier, and visually flagging hateful content directly on the page.<br>
+
 👥 Team & Scope
-This project is a two-person collaboration with a clear division of work:
+This project is a two-person collaboration with a clear division of work:<br>
+
 Partner — ML & Data: Dataset collection, EDA, preprocessing, model training, evaluation, and API deployment for the hate speech classifier.<br>
+
 Shreyana — Extension & Design: Chrome extension architecture, UI/UX design, cross-platform comment scraping, and integration with the model's API.<br>
 
 Day 1: Started with a youtube video about building a google extension sent to me by my friend and a collaborator on this project with me.<br>
