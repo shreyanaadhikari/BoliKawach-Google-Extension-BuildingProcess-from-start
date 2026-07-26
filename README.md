@@ -37,9 +37,9 @@ Key takeaways from the video:<br>
 - Tested on a live Facebook post and successfully extracted real comment text, including Nepali-influenced text.<br>
 <img width="643" height="397" alt="Screenshot 2026-07-26 at 13 31 41" src="https://github.com/user-attachments/assets/1be5ef00-158e-4253-ba6a-004f505ff97e" />
 <img width="690" height="132" alt="Screenshot 2026-07-26 at 14 15 23" src="https://github.com/user-attachments/assets/eded6699-1b96-4c8c-863c-7ae475c6ed45" />
-(This isn't meant to offend anyone, I just added this screenshot to track my progress and to realize what i built is actually working. Please do not take it or think of it otherwise.)
+(This isn't meant to offend anyone, I just added this screenshot to track my progress and to realize what i built is actually working. Please do not take it or think of it otherwise.)<br>
 
--->Progress Log (Instagram & YouTube)
+-->Progress Log (Instagram & YouTube)<br>
 - Extended detection beyond Facebook by writing instagram.js and youtube.js, reusing the same content script structure (mock detection + visual flagging + MutationObserver for dynamically loaded comments)
 - For Instagram, tried the same aria-label*="Comment by" selector used on Facebook first, since both are Meta-owned and share some infrastructure and confirmed working without needing a separate DevTools investigation
 - For YouTube, targeted #content-text inside ytd-comment-thread-renderer/ytd-comment-view-model, YouTube's stable custom element structure for comments
@@ -47,19 +47,19 @@ Key takeaways from the video:<br>
 - Tested live on both platforms and confirmed real comments (including Nepali and romanized Nepali text) are being scanned and logged correctly
 - Noted a key finding: the mock detection logic only flags comments containing a small hardcoded word list, so real hateful comments without those exact words correctly return not_hate, this confirmed the extension's scanning/flagging pipeline works correctly, and highlighted that real accuracy will only come once the trained ML model's API replaces the mock
 <img width="1034" height="718" alt="Screenshot 2026-07-26 at 14 26 56" src="https://github.com/user-attachments/assets/8c45985e-0fbc-46ee-be99-b93a7f9051ff" />
-<img width="1034" height="316" alt="Screenshot 2026-07-26 at 14 21 18" src="https://github.com/user-attachments/assets/0e283096-a30c-45cb-a1bb-daac2e918123" />
+<img width="1034" height="316" alt="Screenshot 2026-07-26 at 14 21 18" src="https://github.com/user-attachments/assets/0e283096-a30c-45cb-a1bb-daac2e918123" /><br>
 
 -->Progress Log (Designing the Logo)
-<img width="544" height="522" alt="Screenshot 2026-07-26 at 14 54 03" src="https://github.com/user-attachments/assets/22b46309-7aa1-47c5-9211-95e69d9f615e" />
-(final logo)
+<img width="544" height="522" alt="Screenshot 2026-07-26 at 14 54 03" src="https://github.com/user-attachments/assets/22b46309-7aa1-47c5-9211-95e69d9f615e" /><br>
+(final logo)<br>
 
 - I exported the same logo in 16px, 48px and 128px then created a folder called "icons" in my main folder and added all those icon files.
 <img width="128" height="128" alt="icon128" src="https://github.com/user-attachments/assets/acbb46b3-c32c-486b-a14c-5360c3c30ce2" />
 <img width="48" height="48" alt="icon48" src="https://github.com/user-attachments/assets/c27ac1f2-dd22-4339-b4a8-e75dd4ff5388" />
-<img width="16" height="16" alt="icon16" src="https://github.com/user-attachments/assets/46a194d6-be8d-46f0-8d41-f489efa3cb2f" />
+<img width="16" height="16" alt="icon16" src="https://github.com/user-attachments/assets/46a194d6-be8d-46f0-8d41-f489efa3cb2f" /><br>
 
-- Then I updated my manifest.json file and reloaded my extension card.
-<img width="843" height="522" alt="Screenshot 2026-07-26 at 15 15 20" src="https://github.com/user-attachments/assets/19b291e3-cbe4-44ed-9511-93dc02507c5f" />
+- Then I updated my manifest.json file and reloaded my extension card.<br>
+<img width="843" height="522" alt="Screenshot 2026-07-26 at 15 15 20" src="https://github.com/user-attachments/assets/19b291e3-cbe4-44ed-9511-93dc02507c5f" /><br>
 (will continue from here now)
 
 
