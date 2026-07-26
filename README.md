@@ -20,14 +20,14 @@ Key takeaways from the video:<br>
 
 -->Added background.service_worker → created background.js (empty) → then reloaded, confirmed no error. <br>
 
--->Progress Log — Facebook Content Script
-Added background.js and registered it as the service worker in manifest.json<br>
-Used Chrome DevTools to inspect Facebook's DOM and find a stable way to target comments (Facebook's class names are auto-generated and change often)<br>
-Found that [aria-label*="Comment by"] reliably selects comment containers, and the actual text sits inside a nested div[dir="auto"]<br>
-Wrote facebook.js, loops through comment containers, extracts clean text, logs it to console<br>
-Registered it in manifest.json under content_scripts, targeting https://*.facebook.com/* <br>
-Fixed a JSON syntax error (missing comma) that broke the manifest<br>
-Tested on a live Facebook post and successfully extracted real comment text, including Nepali-influenced text.<br>
+-->Progress Log (Facebook Content Script)
+- Added background.js and registered it as the service worker in manifest.json<br>
+- Used Chrome DevTools to inspect Facebook's DOM and find a stable way to target comments (Facebook's class names are auto-generated and change often)<br>
+- Found that [aria-label*="Comment by"] reliably selects comment containers, and the actual text sits inside a nested div[dir="auto"]<br>
+- Wrote facebook.js, loops through comment containers, extracts clean text, logs it to console<br>
+- Registered it in manifest.json under content_scripts, targeting https://*.facebook.com/* <br>
+- Fixed a JSON syntax error (missing comma) that broke the manifest<br>
+- Tested on a live Facebook post and successfully extracted real comment text, including Nepali-influenced text.<br>
 <img width="643" height="397" alt="Screenshot 2026-07-26 at 13 31 41" src="https://github.com/user-attachments/assets/1be5ef00-158e-4253-ba6a-004f505ff97e" />
 
 
