@@ -75,7 +75,13 @@ NEXT UPDATE:
 
 <img width="558" height="334" alt="Screenshot 2026-08-08 at 14 06 39" src="https://github.com/user-attachments/assets/0df72884-78c1-4d6c-82b0-36002eb58de1" />
 
---> Test results: 
+--> Encountered an error :/ 
+
+<img width="558" height="334" alt="Screenshot 2026-08-08 at 14 13 43" src="https://github.com/user-attachments/assets/c13fb4fc-e652-443d-a6e8-6023017c5836" />
+<img width="558" height="334" alt="Screenshot 2026-08-08 at 14 12 59" src="https://github.com/user-attachments/assets/b98e4949-395f-49c2-9234-50e0380b0864" />
+
+
+
 
 
 
