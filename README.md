@@ -65,6 +65,26 @@ Key takeaways from the video:<br>
 <img width="843" height="522" alt="Screenshot 2026-07-26 at 15 15 20" src="https://github.com/user-attachments/assets/19b291e3-cbe4-44ed-9511-93dc02507c5f" /><br>
 (will continue from here now)
 
+NEXT UPDATE:
+--> I was waiting for my partner to provide me the API's URL. And I have it now, so for final touches i replaced those mock values with the working url and updated my manifest.json file with the same url and then tested whether the url actually got deployed right or not on my Mac's terminal.
+
+<img width="659" height="494" alt="Screenshot 2026-08-08 at 13 44 33" src="https://github.com/user-attachments/assets/2cd31c92-718d-40f4-8d0a-48bcd5ce6c95" />
+
+--> Now I am reloading my extension card and checking for any errors.<br>
+--> Next up is visiting someone's profile and leaving a hate comment (only for testing purpose) to test my working extension:<br>
+
+<img width="558" height="334" alt="Screenshot 2026-08-08 at 14 06 39" src="https://github.com/user-attachments/assets/0df72884-78c1-4d6c-82b0-36002eb58de1" />
+
+--> Test results: 
+
+
+
+
+
+
+
+
+
 
 
 
