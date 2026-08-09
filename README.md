@@ -53,8 +53,10 @@ Key takeaways from the video:<br>
 <img width="1034" height="316" alt="Screenshot 2026-07-26 at 14 21 18" src="https://github.com/user-attachments/assets/0e283096-a30c-45cb-a1bb-daac2e918123" /><br>
 
 <br>-->Progress Log (Designing the Logo)
-<img width="544" height="522" alt="Screenshot 2026-07-26 at 14 54 03" src="https://github.com/user-attachments/assets/22b46309-7aa1-47c5-9211-95e69d9f615e" /><br>
-(final logo)<br>
+
+<br><img width="544" height="522" alt="Screenshot 2026-07-26 at 14 54 03" src="https://github.com/user-attachments/assets/22b46309-7aa1-47c5-9211-95e69d9f615e" /><br>
+
+<br>(final logo)<br>
 
 - I exported the same logo in 16px, 48px and 128px then created a folder called "icons" in my main folder and added all those icon files.
 <img width="128" height="128" alt="icon128" src="https://github.com/user-attachments/assets/acbb46b3-c32c-486b-a14c-5360c3c30ce2" />
