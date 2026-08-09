@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BoliKawach</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <img src="logo.png" alt="BoliKawach logo" class="logo-img" />
+      <div class="header-text">
+        <h1>BoliKawach</h1>
+        <span class="tagline">Nepali Hate Speech Shield</span>
+      </div>
+    </header>
+
+    <button id="scanToggle" class="toggle-btn off">
+      <span class="toggle-icon">○</span>
+      <span id="toggleLabel">Turn On Scanning</span>
+    </button>
+    <p class="toggle-hint">Scans comments live on Facebook, Instagram &amp; YouTube</p>
+
+    <div class="divider"></div>
+
+    <p class="section-label">Manual check</p>
+    <textarea id="inputText" placeholder="कमेन्ट वा टेक्स्ट यहाँ पेस्ट गर्नुहोस्... (paste text here)"></textarea>
+
+    <button id="checkBtn">Check Text</button>
+
+    <div id="result" class="result hidden">
+      <div id="resultLabel" class="result-label"></div>
+      <div id="resultConfidence" class="result-confidence"></div>
+    </div>
+
+    <footer>
+      <span id="statusText">Ready</span>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
