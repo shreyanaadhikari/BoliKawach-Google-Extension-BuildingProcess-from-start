@@ -2,7 +2,7 @@
 Here I will document each and every day's progress that I did in order to contribute for our project "BoliKawach", an online Nepali Hate speech detection platform.  
 
 🎯 Project Overview
-Nepali-language hate speech on social media (Facebook, Instagram, YouTube, TikTok) is rarely covered by existing moderation tools, which are built primarily for English. BoliKawach aims to close that gap by scanning visible comments on supported platforms, running them through a trained hate speech classifier, and visually flagging hateful content directly on the page.<br>
+Nepali-language hate speech on social media (Facebook, Instagram, YouTube) is rarely covered by existing moderation tools, which are built primarily for English. BoliKawach aims to close that gap by scanning visible comments on supported platforms, running them through a trained hate speech classifier, and visually flagging hateful content directly on the page.<br>
 
 👥 Team & Scope
 This project is a two-person collaboration with a clear division of work:<br>
