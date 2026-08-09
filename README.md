@@ -52,7 +52,7 @@ Key takeaways from the video:<br>
 <img width="1034" height="718" alt="Screenshot 2026-07-26 at 14 26 56" src="https://github.com/user-attachments/assets/8c45985e-0fbc-46ee-be99-b93a7f9051ff" />
 <img width="1034" height="316" alt="Screenshot 2026-07-26 at 14 21 18" src="https://github.com/user-attachments/assets/0e283096-a30c-45cb-a1bb-daac2e918123" /><br>
 
--->Progress Log (Designing the Logo)
+<br>-->Progress Log (Designing the Logo)
 <img width="544" height="522" alt="Screenshot 2026-07-26 at 14 54 03" src="https://github.com/user-attachments/assets/22b46309-7aa1-47c5-9211-95e69d9f615e" /><br>
 (final logo)<br>
 
@@ -83,11 +83,11 @@ NEXT UPDATE:
 --> NEXT UPDATE: Fixed the errors, the error was on my partners side regarding the server not waking up and recurring API ERROR when I deployed the API onto the websites. The project is now live and working as of now. I will be updating my files and pushing them into this repo. Here are my final working screenshots:<br>
 
 --> Instagram
-<img width="1111" height="724" alt="Screenshot 2026-08-08 at 21 05 41" src="https://github.com/user-attachments/assets/b035c06d-f8a8-4580-9f61-97b7f35fb841" />
+<img width="1111" height="724" alt="Screenshot 2026-08-08 at 21 05 41" src="https://github.com/user-attachments/assets/b035c06d-f8a8-4580-9f61-97b7f35fb841" /><br>
 --> Facebook
-<img width="1359" height="779" alt="Screenshot 2026-08-09 at 09 51 40" src="https://github.com/user-attachments/assets/dfda9940-12d6-4a82-be6f-2b2f2ad980b2" />
+<img width="1359" height="779" alt="Screenshot 2026-08-09 at 09 51 40" src="https://github.com/user-attachments/assets/dfda9940-12d6-4a82-be6f-2b2f2ad980b2" /><br>
 --> Youtube
-<img width="1359" height="779" alt="Screenshot 2026-08-09 at 09 52 15" src="https://github.com/user-attachments/assets/560255b4-8f36-4ffa-a9ff-08c359242de9" />
+<img width="1359" height="779" alt="Screenshot 2026-08-09 at 09 52 15" src="https://github.com/user-attachments/assets/560255b4-8f36-4ffa-a9ff-08c359242de9" /><br>
 
 THANK YOU!!!! WILL BE UPDATING FURTHER FOR MORE CHANGES AND UPDATES!
 
