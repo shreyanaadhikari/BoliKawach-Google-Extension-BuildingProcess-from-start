@@ -80,6 +80,22 @@ NEXT UPDATE:
 <img width="558" height="334" alt="Screenshot 2026-08-08 at 14 13 43" src="https://github.com/user-attachments/assets/c13fb4fc-e652-443d-a6e8-6023017c5836" />
 <img width="558" height="334" alt="Screenshot 2026-08-08 at 14 12 59" src="https://github.com/user-attachments/assets/b98e4949-395f-49c2-9234-50e0380b0864" />
 
+--> NEXT UPDATE: Fixed the errors, the error was on my partners side regarding the server not waking up and recurring API ERROR when I deployed the API onto the websites. The project is now live and working as of now. I will be updating my files and pushing them into this repo. Here are my final working screenshots:<br>
+
+--> Instagram
+<img width="1111" height="724" alt="Screenshot 2026-08-08 at 21 05 41" src="https://github.com/user-attachments/assets/b035c06d-f8a8-4580-9f61-97b7f35fb841" />
+--> Facebook
+<img width="1359" height="779" alt="Screenshot 2026-08-09 at 09 51 40" src="https://github.com/user-attachments/assets/dfda9940-12d6-4a82-be6f-2b2f2ad980b2" />
+--> Youtube
+<img width="1359" height="779" alt="Screenshot 2026-08-09 at 09 52 15" src="https://github.com/user-attachments/assets/560255b4-8f36-4ffa-a9ff-08c359242de9" />
+
+THANK YOU!!!! WILL BE UPDATING FURTHER FOR MORE CHANGES AND UPDATES!
+
+
+
+
+
+
 
 
 
