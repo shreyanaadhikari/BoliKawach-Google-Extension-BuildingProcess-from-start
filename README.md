@@ -7,11 +7,11 @@ Nepali-language hate speech on social media (Facebook, Instagram, YouTube) is ra
 👥 Team & Scope
 This project is a two-person collaboration with a clear division of work:<br>
 
-Partner — ML & Data: Dataset collection, EDA, preprocessing, model training, evaluation, and API deployment for the hate speech classifier.<br>
-
 Shreyana — Extension & Design: Chrome extension architecture, UI/UX design, cross-platform comment scraping, and integration with the model's API.<br>
 
-Day 1: Started with a youtube video about building a google extension sent to me by my friend and a collaborator on this project with me.<br>
+Partner — ML & Data: Dataset collection, EDA, preprocessing, model training, evaluation, and API deployment for the hate speech classifier.<br>
+
+**Day 1: Started with a youtube video about building a google extension sent to me by my friend and a collaborator on this project with me.** <br>
 Youtube video link: https://www.youtube.com/watch?v=0n809nd4Zu4<br>
 Key takeaways from the video:<br>
 --> manifest.json is a crucial starting point.
@@ -30,7 +30,7 @@ Key takeaways from the video:<br>
 
 -->Added background.service_worker → created background.js (empty) → then reloaded, confirmed no error. <br>
 
--->Progress Log (Facebook Content Script)
+**-->Progress Log (Facebook Content Script)**
 - Added background.js and registered it as the service worker in manifest.json<br>
 - Used Chrome DevTools to inspect Facebook's DOM and find a stable way to target comments (Facebook's class names are auto-generated and change often)<br>
 - Found that [aria-label*="Comment by"] reliably selects comment containers, and the actual text sits inside a nested div[dir="auto"]<br>
@@ -42,7 +42,7 @@ Key takeaways from the video:<br>
 <img width="690" height="132" alt="Screenshot 2026-07-26 at 14 15 23" src="https://github.com/user-attachments/assets/eded6699-1b96-4c8c-863c-7ae475c6ed45" />
 (This isn't meant to offend anyone, I just added this screenshot to track my progress and to realize what i built is actually working. Please do not take it or think of it otherwise.)<br>
 
--->Progress Log (Instagram & YouTube)<br>
+**-->Progress Log (Instagram & YouTube)** <br>
 - Extended detection beyond Facebook by writing instagram.js and youtube.js, reusing the same content script structure (mock detection + visual flagging + MutationObserver for dynamically loaded comments)
 - For Instagram, tried the same aria-label*="Comment by" selector used on Facebook first, since both are Meta-owned and share some infrastructure and confirmed working without needing a separate DevTools investigation
 - For YouTube, targeted #content-text inside ytd-comment-thread-renderer/ytd-comment-view-model, YouTube's stable custom element structure for comments
@@ -52,7 +52,7 @@ Key takeaways from the video:<br>
 <img width="1034" height="718" alt="Screenshot 2026-07-26 at 14 26 56" src="https://github.com/user-attachments/assets/8c45985e-0fbc-46ee-be99-b93a7f9051ff" />
 <img width="1034" height="316" alt="Screenshot 2026-07-26 at 14 21 18" src="https://github.com/user-attachments/assets/0e283096-a30c-45cb-a1bb-daac2e918123" /><br>
 
-<br>-->Progress Log (Designing the Logo)
+<br> **-->Progress Log (Designing the Logo)**
 
 <br><img width="544" height="522" alt="Screenshot 2026-07-26 at 14 54 03" src="https://github.com/user-attachments/assets/22b46309-7aa1-47c5-9211-95e69d9f615e" /><br>
 
@@ -67,7 +67,7 @@ Key takeaways from the video:<br>
 <img width="843" height="522" alt="Screenshot 2026-07-26 at 15 15 20" src="https://github.com/user-attachments/assets/19b291e3-cbe4-44ed-9511-93dc02507c5f" /><br>
 (will continue from here now)
 
-NEXT UPDATE:
+**NEXT UPDATE:**
 --> I was waiting for my partner to provide me the API's URL. And I have it now, so for final touches i replaced those mock values with the working url and updated my manifest.json file with the same url and then tested whether the url actually got deployed right or not on my Mac's terminal.
 
 <img width="659" height="494" alt="Screenshot 2026-08-08 at 13 44 33" src="https://github.com/user-attachments/assets/2cd31c92-718d-40f4-8d0a-48bcd5ce6c95" />
@@ -82,7 +82,7 @@ NEXT UPDATE:
 <img width="558" height="334" alt="Screenshot 2026-08-08 at 14 13 43" src="https://github.com/user-attachments/assets/c13fb4fc-e652-443d-a6e8-6023017c5836" />
 <img width="558" height="334" alt="Screenshot 2026-08-08 at 14 12 59" src="https://github.com/user-attachments/assets/b98e4949-395f-49c2-9234-50e0380b0864" />
 
---> NEXT UPDATE: Fixed the errors, the error was on my partners side regarding the server not waking up and recurring API ERROR when I deployed the API onto the websites. The project is now live and working as of now. I will be updating my files and pushing them into this repo. Here are my final working screenshots:<br>
+**--> NEXT UPDATE:** Fixed the errors, the error was on my partners side regarding the server not waking up and recurring API ERROR when I deployed the API onto the websites. The project is now live and working as of now. I will be updating my files and pushing them into this repo. Here are my final working screenshots:<br>
 
 --> Instagram
 <img width="1111" height="724" alt="Screenshot 2026-08-08 at 21 05 41" src="https://github.com/user-attachments/assets/b035c06d-f8a8-4580-9f61-97b7f35fb841" /><br>
@@ -91,7 +91,7 @@ NEXT UPDATE:
 --> Youtube
 <img width="1359" height="779" alt="Screenshot 2026-08-09 at 09 52 15" src="https://github.com/user-attachments/assets/560255b4-8f36-4ffa-a9ff-08c359242de9" /><br>
 
-THANK YOU!!!! WILL BE UPDATING FURTHER FOR MORE CHANGES AND UPDATES!
+**THANK YOU!!!! WILL BE UPDATING FURTHER FOR MORE CHANGES AND UPDATES!**
 
 
 
